@@ -1,0 +1,55 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat';
+    font-size: 17px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+nav{
+    height: 10vh;
+    background-color: #2d3596;
+    font-family: 'Montserrat';
+}
+
+.nav-item{
+    color:white;
+    margin-right: 15px;
+}
+
+.act{
+    color: #f0a20e;
+    border-bottom: 2px solid #f0a20e;
+}
+
+.navbar ul li a:hover{
+    color: #f0a20e;
+    border-bottom: 2px solid #f0a20e;
+}
+
+.container span{
+    color: #f0a20e;
+}
+
+#main-table{
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+input[type=submit]:hover {
+    color:white;
+    background-color: #2c6834;
+  }
+
+#move-header{
+    height: 300px;
+    position: static;
+    background: url(asset/move2.jpg);
+}
+
+

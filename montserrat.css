@@ -1,0 +1,56 @@
+/**
+ * @license
+ *
+ * Font Family: Montserrat
+ * Designed by: Julieta Ulanovsky, Sol Matas, Juan Pablo del Peral, Jacques Le Bailly
+ * URL: https://www.fontshare.com/fonts/montserrat
+ * © 2022 Indian Type Foundry
+ *
+ * Font Styles:
+ * Montserrat Variable(Variable font)
+ * Montserrat Variable Italic(Variable font)
+ * Montserrat Thin
+ * Montserrat Thin Italic
+ * Montserrat Extra Light
+ * Montserrat Extra Light Italic
+ * Montserrat Light
+ * Montserrat Light Italic
+ * Montserrat Regular
+ * Montserrat Italic
+ * Montserrat Medium
+ * Montserrat Medium Italic
+ * Montserrat Semi Bold
+ * Montserrat Semi Bold Italic
+ * Montserrat Bold
+ * Montserrat Bold Italic
+ * Montserrat Extra Bold
+ * Montserrat Extra Bold Italic
+ * Montserrat Black
+ * Montserrat Black Italic
+ *
+*/
+
+
+/**
+* This is a variable font
+* You can controll variable axes as shown below:
+* font-variation-settings: 'wght' 100.0;
+*
+* available axes:
+
+* 'wght' (range from 100.0 to 900.0)
+
+*/
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Variable.woff2') format('woff2'),
+       url('../fonts/Montserrat-Variable.woff') format('woff'),
+       url('../fonts/Montserrat-Variable.ttf') format('truetype');
+       font-weight: 100 900;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+
